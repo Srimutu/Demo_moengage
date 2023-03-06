@@ -188,6 +188,12 @@ header .nav li .dropdown-menu li a {
 }
 .item-thumbs img {
     margin-bottom: 15px;
+min-height: 200px;
+	max-height: 200px;
+}
+.item-thumbs {
+    display: flex;
+    flex-direction: column;   
 }
 .flex-control-paging li a.flex-active {
     background: #000;
@@ -836,8 +842,10 @@ ul.portfolio-categ li a{
 	color: #14A085;
 }
 ul.portfolio-categ li.active{
-border: 1px solid #D7D8D6;
-background-color: #EAEAEA;
+
+border: 1px solid #D7D8D6;
+
+background-color: #EAEAEA;
 }
 ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.portfolio-categ li a:focus,ul.portfolio-categ li a:active {
 	text-decoration:none;
