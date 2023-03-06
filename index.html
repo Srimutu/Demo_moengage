@@ -24,7 +24,74 @@
   Moengage = moe({
   app_id:"DNBVW45PTD67QO7I1Q7ORLZD",
   debug_logs: 0,
-    cluster: "DC_1"
+  cluster: "DC_1",
+	cards: {
+      enable: true,
+      placeholder: "#cardIcon",
+      backgroundColor: "#F6FBFC",
+      overLayColor: "rgba(0, 0, 0, 0.8)",
+      fontFaces: inherit,
+      cardDismiss: {
+        color: "#db2828",
+        enable: true
+      },
+      optionButtonColor: "#C4C4C4",
+      dateTimeColor: "#8E8E8E",
+      unclickedCardIndicatorColor: "blue",
+      pinIcon: "https://app-cdn.moengage.com/sdk/pin-icon.svg",
+      refreshIcon: "https://app-cdn.moengage.com/sdk/refresh-icon.svg",
+      navigationBar: {
+        backgroundColor: "#00237C",
+        text: "Notification Inbox",
+        color: "#fff",
+        fontSize: "16px",
+        fontFamily: "",
+      },
+      closeButton: {
+        webIcon: "https://app-cdn.moengage.com/sdk/cross-icon.svg",
+        mWebIcon: "https://app-cdn.moengage.com/sdk/cross-icon.svg",
+      },
+      tab: {
+        active: {
+          color: "#06A6B7",
+          underlineColor: "#06A6B7",
+          backgroundColor: "transparent"
+        },
+        inactiveTabFontColor: "#7C7C7C",
+        fontSize: "14px",
+        fontFamily: "",
+        backgroundColor: "#fff",
+      },
+      webFloating: {
+        enable: true,
+        icon: "https://app-cdn.moengage.com/sdk/bell-icon.svg",
+        postion: "0px 10px 40px 0",
+        countBackgroundColor: "#FF5A5F",
+        countColor: "#fff",
+        iconBackgroundColor: "#D9DFED",
+        fontFamily: "Audiowide"
+      },
+      mWebFloating: {
+        enable: true,
+        icon: "https://app-cdn.moengage.com/sdk/bell-icon.svg",
+        postion: "0px 10px 40px 0",
+        countBackgroundColor: "#FF5A5F",
+        countColor: "#fff",
+        iconBackgroundColor: "#D9DFED",
+        fontFamily: "Audiowide"
+      },
+      card: {
+        headerFontSize: "16px",
+        descriptionFontSize: "14px",
+        ctaFontSize: "12px",
+        fontFamily: "inherit",
+        horizontalRowColor: "#D9DFED"
+      },
+      noDataContent: {
+        img: "https://app-cdn.moengage.com/sdk/cards-no-result.svg",
+        text: "No notifications to show, check again later.",
+      }
+    }
   });
   </script>
  
