@@ -193,7 +193,9 @@ min-height: 200px;
 }
 .item-thumbs {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column; 
+	    justify-content: center;
+    align-items: center;
 }
 .flex-control-paging li a.flex-active {
     background: #000;
@@ -761,7 +763,7 @@ form#commentform textarea {
 }
 
 .item-thumbs a + img {
-	width: 100%;	
+	
 }
 
 .item-thumbs .hover-wrap {
